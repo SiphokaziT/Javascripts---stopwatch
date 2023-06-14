@@ -1,0 +1,67 @@
+body {
+    background-color: rgba(255, 255, 0, 0.144);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+.container {
+    margin: 30px auto;
+    text-align: center;
+    width: 800px;
+}
+
+h1 {
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(50, 205, 192)
+}
+
+h2 {
+    font-size: 5em;
+    color: rgb(50, 205, 192)
+}
+
+button {
+    border: none;
+    padding: 18px 10px;
+    font-size: 1.2em;
+    width: 180px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgba(50, 205, 192, 0.733)
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(210, 255, 127);
+
+}
+
+
+
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 0, 0.144);
+    text-align: center;
+    color: rgb(50, 205, 192)
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 26px;
+
+        margin: 0px;
+    }
+
+    .container {
+        margin: 30px auto;
+        text-align: center;
+        width: 100px;
+        height: 100px;
+
+    }
+}
